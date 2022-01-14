@@ -1,0 +1,87 @@
+#Layer_1 {
+  font-size: 16px;
+  font-family: Arial;
+  text-anchor: middle;
+  /* fill: white; */
+  position: absolute;
+  left:85%;
+  top:70%;
+  transform: translate(-50%,-50%);
+}
+.cls-1{
+  fill:transparent;
+  stroke: white;
+  stroke-dasharray: 0%;
+  stroke-dashoffset:50%;
+  stroke-width: 0.5px;
+  animation: fill 0.5s 4.5s forwards;
+}
+
+@keyframes fill {
+  to{
+    fill:#ffff;
+  }
+}
+
+.cls-1 tspan:nth-child(1){
+  stroke: white;
+  stroke-dasharray: 50%;
+  stroke-dashoffset:70%;
+  animation: appear  1s forwards 0.20s;
+}
+
+.cls-1 tspan:nth-child(2){
+    stroke: white;
+  stroke-dasharray: 50%;
+  stroke-dashoffset:50%;
+  animation: appear  1s forwards 0.5s;
+}
+.cls-1 tspan:nth-child(3){
+    stroke: white;
+  stroke-dasharray: 50%;
+  stroke-dashoffset:50%;
+  animation: appear  1s forwards 1s;
+}
+.cls-1 tspan:nth-child(4){
+    stroke: white;
+  stroke-dasharray: 50%;
+  stroke-dashoffset:50%;
+  animation: appear  1s forwards 1.5s;
+}
+.cls-1 tspan:nth-child(5){
+    stroke: white;
+  stroke-dasharray: 50%;
+  stroke-dashoffset:50%;
+  animation: appear  1s forwards 2.0s;
+}
+.cls-1 tspan:nth-child(6){
+    stroke: white;
+  stroke-dasharray: 50%;
+  stroke-dashoffset:50%;
+  animation: appear  1s forwards 2.5s;
+}
+.cls-1 tspan:nth-child(7){
+    stroke: white;
+  stroke-dasharray: 50%;
+  stroke-dashoffset:50%;
+  animation: appear  1s forwards 3.0s;
+}
+.cls-1 tspan:nth-child(8){
+    stroke: white;
+  stroke-dasharray: 50%;
+  stroke-dashoffset:50%;
+  animation: appear  1s forwards 3.5s;
+}
+.cls-1 tspan:nth-child(9){
+    stroke: white;
+  stroke-dasharray: 50%;
+  stroke-dashoffset:50%;
+  animation: appear  1s forwards 4.0s ;
+}
+
+@keyframes appear{
+  to{
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 70%;
+  }
+}

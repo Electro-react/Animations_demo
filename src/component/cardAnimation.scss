@@ -1,0 +1,113 @@
+.cardAnimation{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.imgCard {
+    position:absolute;
+    left:37.5%;
+    top:25%;
+    width:20%;
+    height:35%;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid white;
+    padding-bottom:2rem;
+    background-color: #fff;
+    animation: Position 0.5s ease-in-out forwards;
+    transform: rotate(0deg);
+}
+    
+.imgCard:nth-child(1){
+     animation: scatter_1 0.5s ease-in-out forwards 0.5s;
+    transform: rotate(0deg);
+}
+.imgCard:nth-child(2){
+     animation: scatter_2 0.5s ease-in-out forwards 0.5s;
+    transform: rotate(0deg);
+}
+.imgCard:nth-child(3){
+     animation: scatter_3 0.5s ease-in-out forwards 0.5s;
+    transform: rotate(0deg);
+}
+.imgCard:nth-child(4){
+     animation: scatter_4 0.5s ease-in-out forwards 0.5s;
+    transform: rotate(0deg);
+}
+.imgCard:nth-child(5){
+     animation: scatter_5 0.5s ease-in-out forwards 0.5s;
+    transform: rotate(0deg);
+}
+.imgCard:nth-child(6){
+     animation: scatter_6 0.5s ease-in-out forwards 0.5s;
+    transform: rotate(0deg);
+}
+
+
+@keyframes scatter_1 {
+    to{
+        transform: rotate(-30deg);
+        left:0%;
+    }
+    
+}
+
+@keyframes scatter_2 {
+     to{
+        transform: rotate(-15deg);
+        left:18%;
+        top:10%;
+    }
+
+}
+
+@keyframes scatter_3 {
+     to{
+        transform: rotate(0deg);
+        left:37.5%;
+        top:5%;
+    }
+    
+}
+@keyframes scatter_4 {
+     to{
+        transform: rotate(15deg);
+        left:57%;
+        top:10%
+    }
+
+}
+@keyframes scatter_5 {
+     to{
+        transform: rotate(30deg);
+        left:75%;
+    }
+
+}
+
+@keyframes Position {
+    from{
+        top:25%;
+    }
+to{
+    top: 0%
+}
+}
+
+.ImgCard{
+    position:absolute;
+    top:0;
+}
+
+
+.bg-blur{
+     background-image: url("../image/pexels-joão-luccas-oliveira-6133829.jpg");
+background-position:top;
+background-repeat: no-repeat;  
+background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  opacity:1;    
+  height:100vh;
+}

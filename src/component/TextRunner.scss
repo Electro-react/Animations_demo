@@ -1,0 +1,15 @@
+#text::after{
+    content:"|";
+    font-family:monospace;
+    opacity:1;
+}
+
+
+#text{
+    text-align: center;
+    color:white;
+    font-size:2rem;
+    position:absolute;
+    left:25%;
+    bottom:10%; 
+}
