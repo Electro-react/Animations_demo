@@ -1,7 +1,7 @@
 <h1><b>MoonLight Animation</b></h1>
 <p style="color:purple">Moonlight animation web page is created to illustarate different kinds of aniamtion through vanila js and css with react js frame work.</p>
 
-> Link for demo:
+> Link for demo:animations-demo.vercel.app
 > <br>
 
 > Types of Animation illustrate in this webpage:
